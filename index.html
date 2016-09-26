@@ -54,7 +54,7 @@
             var  dataInfo = saveData();
             dataInfo = JSON.stringify(dataInfo,null, "\t");
             var blob = new Blob([dataInfo], {type: "text/plain;charset=utf-8"});
-            saveAs(blob, "translation.json");
+            saveAs(blob, save_translation_name);
         }
     </script>
 </head>
@@ -79,6 +79,8 @@
 </body>
 
 <script>
+    
+    var save_translation_name = "translation.json";
     function handleFileSelect(evt)
     {
         var files = evt.target.files; // FileList object
@@ -89,6 +91,7 @@
             output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
                     f.size, ' bytes, last modified: ',
                     f.lastModifiedDate.toLocaleDateString(), '</li>');
+            save_translation_name = f.name;
         }
         document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
         readAsText();
@@ -100,9 +103,6 @@
     var teble_id_arry = new Array();
   //  $.getJSON("local_en.json", function(a)
   //  {
-
-
-    console.log("~~~~~~~~",english);
         init_data = chinese;
         for(var i in init_data){//用javascript的for/in循环遍历对象的属性
 
