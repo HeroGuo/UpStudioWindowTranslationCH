@@ -52,6 +52,7 @@
 
         function  createFile(){
             var  dataInfo = saveData();
+            console.log(dataInfo);
             dataInfo = JSON.stringify(dataInfo,null, "\t");
             var blob = new Blob([dataInfo], {type: "text/plain;charset=utf-8"});
             saveAs(blob, save_translation_fileName);
@@ -102,7 +103,7 @@
   //  $.getJSON("local_en.json", function(a)
   //  {
 
-        init_data = chinese;
+        init_data = english;
         for(var i in init_data){//用javascript的for/in循环遍历对象的属性
 
             if (i!= "version" && i!= "date" ){
@@ -137,10 +138,12 @@
                     var temp = i+'.'+key;
                     var input_name = i+key;
                     input_name = input_name.replace('</br>',"");
-                    temp = temp.replace(/\r\n/g,"");
-                    temp = temp.replace(/\n/g,"")
+                    temp = temp.replace(/\n/g,"");
+//                    temp = temp.replace(/\n/g,"")
 
-                    var input_front_id = stripscript(temp);
+                    var input_front_id =  temp;
+// stripscript(temp);
+                    console.log(input_front_id);
                     chang_html += "<tr>";
                     chang_html += "<td>"
                             + key
@@ -178,7 +181,7 @@
                 if (i!= "version" && i!= "date" ) {
                     for(key in data[i]) {
                         var in_putId_front = i+'.'+key;
-                        in_putId_front = stripscript(in_putId_front);
+//                        in_putId_front = stripscript(in_putId_front);
                         if(document.getElementById(in_putId_front)!=undefined)
                         {
                             document.getElementById(in_putId_front).value=data[i][key];
@@ -230,29 +233,28 @@
     function saveData()
     {
         for(var i in init_data){
-
             if (i!= "version" && i!= "date" )
             {
                 var local_object_info ;
                 var  id_init = "#"+i;
                 local_object_info =$(id_init).find("input");
                 var saveInfo = new Object();
-
                 $.each(local_object_info, function (m, ipt)
                 {
                     var save_temp = i
-                    var key = $(ipt).attr("name");
-                    console.log(ipt)
-                    key=key.replace(i,'');
+                    var key = $(ipt).attr("id");
+                    console.log('Kay'+key);
+                    var removeString = i+'.';
+                    key=key.replace(removeString,'');
                     var value = $(ipt).val();
                     saveInfo[key] = value;
+
+                    console.log(value);
                 });
                 saveKey[i] = saveInfo.valueOf();
             }
         }
-
         return saveKey;
-
     }
 
 
