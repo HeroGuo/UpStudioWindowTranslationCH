@@ -1,7 +1,9 @@
 ﻿var english={
     "version": "1.4",
     "date": "2016-10-20",
-    "name":"zh",
+    "name":{
+    	"name":"zh"
+    	},
 	"_front": {
 		"Cancel": "取消",
 		"Confirm": "确认",
