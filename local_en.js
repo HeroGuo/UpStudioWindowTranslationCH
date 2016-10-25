@@ -1,6 +1,6 @@
 ﻿var english={
     "version": "1.4",
-    "date": "2016-10-21",
+    "date": "2016-10-25",
     "name":{
        "name":"zh"
     },
@@ -378,7 +378,12 @@
 		"Do you want to keep current model?": "是否保留当前模型?",
 		"ERROR: Image read failed": "错误：图片读取失败",
         "Multiple": "多个",
-        "ERROR：Please select the model you need to upload": "错误：请选取需要上传的模型"
+        "ERROR：Please select the model you need to upload": "错误：请选取需要上传的模型",
+        "Initialize_Printer": "初始化打印机",
+        "ERROR: Material modification failure": "错误：材料修改失败",
+        "Price":"价格",
+		"Point":"积分",
+		"Sure to buy":"确定购买吗"
 	},
 	"graphic": {
 		"Filepath: ": "文件路径: ",
