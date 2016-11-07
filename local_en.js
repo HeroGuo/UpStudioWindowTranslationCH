@@ -839,7 +839,7 @@
     "Charge":"收费",
     "Free":"免费",
     "Please sign in your account":"请登录您的账户",
-    "Model description":"模型描述",
+    "Description":"模型描述",
     "Purchase":"购买",
     "Purchased":"已购买",
     "Unpublish":"取消发布",
@@ -862,7 +862,15 @@
     "Refreshing datas…":"正在刷新…",
     "Pull up can load more data":"上拉可以加载更多数据",
     "Release to load more data immediately":"松开立即加载更多数据",
-    "Loading more datas…":"正在加载数据…"
+    "Loading more datas…":"正在加载数据…",
+    "Sure to buy?":"确定购买吗？",
+    "Unpublish successful":"取消发布成功",
+    "Published successfully":"发布成功",
+    "Your points is not enough!":"您的积分不足!",
+    "Purchase failed. Please try again":"购买失败，请重试",
+    "Plesae enter the model price":"请输入模型价格",
+    "No Datas":"没有数据"
+
 }
 
 }
