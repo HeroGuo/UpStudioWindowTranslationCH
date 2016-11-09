@@ -377,7 +377,6 @@
 		"ERROR: Calibration Failure": "错误：校准失败",
 		"ERROR: Server connection failed": "错误：服务器连接失败",
 		"ERROR: Verification Failed,Please download activation package": "错误: 校验失败，请下载校验文件",
-		"[YES] Perf Board\n[NO] Flex Board": "",
 		"Please Select The Type Of Plat": "请选择底板类型",
 		"ERROR: Temperature is low": "错误：喷头温度低",
 		"Do you want to keep current model?": "是否保留当前模型?",
