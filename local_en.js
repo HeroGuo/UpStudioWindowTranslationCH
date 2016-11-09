@@ -869,7 +869,9 @@
     "Your points is not enough!":"您的积分不足!",
     "Purchase failed. Please try again":"购买失败，请重试",
     "Plesae enter the model price":"请输入模型价格",
-    "No Datas":"没有数据"
+    "No Datas":"没有数据",
+    "Please enter a price for pure numbers":"请输入纯数字的价格",
+    "Prepare...":"准备..."
 
 }
 
