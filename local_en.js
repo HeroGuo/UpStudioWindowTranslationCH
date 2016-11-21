@@ -1,8 +1,8 @@
 ﻿var english={
-	"version": "1.4",
-    "date": "2016-11-09",
-    "name":{
-       "name":"zh"
+	 "name":{
+    	"version": "1.4",
+    	"date": "2016-11-11",
+       	"name":"zh"
     },
 	"_front": {
 		"Cancel": "取消",
@@ -63,7 +63,7 @@
 		"Binding_Successfully": "绑定成功",
 		"Activation_Succeeded": "激活成功",
 		"Sign_out": "退出当前账户",
-		"Username": "用户名（3-20个字符，子母开头）",
+		"Username": "用户名（3-20个字符，字母开头）",
 		"Emailenter": "邮箱（请输入您的邮箱）",
 		"Password": "密码（6-32个字符）",
 		"Confirm_Password": "确认密码（再次输入密码）",
@@ -257,8 +257,10 @@
 		"Model_list_nav": "导航",
 		"Model_share_cancle":  "已取消",
 		"Keep_on_download": "继续下载",
-		"Model_buy": "购买"
-
+		"Model_buy": "购买",
+		"Model_preparing":"正在准备数据，不能关闭",
+		"LatestVersion": "最新版本 V.",
+		"Failed_to_bind": "绑定失败"
 	},
 	"print": {
 		"PrinterStatus-1": "打印机未连接",
@@ -300,7 +302,7 @@
 		"Repeat last print?": "确定重复打印吗？",
 		"ERROR: Other error ": "错误：其他错误 ",
 		"Language test": "当前语言为中文",
-		"Are you sure to stop the print job?": "确定停止打印吗？",
+		"Are you sure to stop the print job?": "确定停止吗？",
 		"Found a new version": "发现新版本",
 		",download it immediately?": "，是否立即更新？",
 		"[YES]: Update immediately": "[是]：立即更新",
@@ -388,9 +390,15 @@
         "Price":"价格",
 		"Point":"积分",
 		"Sure to buy":"确定购买吗",
-		"ERROR: Upload Error": "错误：上传错误",
-        "ERROR: Network Disconnection": "错误：网络断开",
-        "ERROR: Cancel publish failure":"错误：取消发布失败"
+		"UploadFile ERROR":"网络断开",
+		"UploadFile ERROR: Upload Error": "错误：上传错误",
+        "UploadFile ERROR: Network Disconnection": "错误：网络断开",
+        "ERROR: Cancel publish failure":"错误：取消发布失败",
+        "The printer does not support this feature":"打印机不支持该功能",
+        "Print finished, please take out the model":"打印完成，请取出模型",
+        "Cancel":"取消",
+		"Not Prompt":"不再提醒",
+		"No material detected, please replace it":"未检测到材料，请更换"
 	},
 	"graphic": {
 		"Filepath: ": "文件路径: ",
@@ -415,7 +423,8 @@
 		"UnSelect All": "全不选择",
 		"Initialize View": "复原视图",
 		"Rotate By Models Center": "绕模型中心旋转",
-		"Exit": "退出"
+		"Exit": "退出",
+		"app is not verified":"程序未校验"
 	},
 	"image_front": {
 		"_Model_Height": "模型高度",
@@ -566,6 +575,7 @@
     "normal": "默认",
     "fine": "较好",
     "fast": "较快",
+    "Turbo": "极快",
     "timeH": "小时",
     "timeM": "分钟",
     "timeS": "秒",
@@ -878,7 +888,9 @@
     "Plesae enter the model price":"请输入模型价格",
     "No Datas":"没有数据",
     "Please enter a price for pure numbers":"请输入纯数字的价格",
-    "Prepare...":"准备..."
+    "Prepare...":"准备...",
+    "Being slicing, can not import model":"正在分层，无法导入模型",
+    "No material detected, please replace it":"未检测到材料，请更换"
     
 }
 }
