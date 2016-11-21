@@ -1,6 +1,5 @@
 ﻿var english={
-	
-	 "name":{
+	"name":{
     	"version": "1.4",
     	"date": "2016-11-11",
        	"name":"zh"
@@ -577,7 +576,7 @@
     "normal": "默认",
     "fine": "较好",
     "fast": "较快",
-    "Turbo": "极快",
+    "turbo": "极快",
     "timeH": "小时",
     "timeM": "分钟",
     "timeS": "秒",
