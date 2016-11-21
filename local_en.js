@@ -1,4 +1,5 @@
 ﻿var english={
+	
 	 "name":{
     	"version": "1.4",
     	"date": "2016-11-11",
@@ -298,7 +299,8 @@
 		"ERROR: Printer is busy,please stop and try again": "错误：系统正忙，请停止后再试",
 		"ERROR: Printer material shortage,still continue?": "错误：打印材料不足，是否继续打印？",
 		"ERROR: Printer support material shortage,still continue?": "错误：支撑材料不足，是否继续打印？",
-		"ERROR: Nozzleheight set error Correct range:": "错误：喷头高度设置错误正确范围：",
+		"ERROR: Nozzleheight set error":"错误：喷头高度设置错误",
+		"Correct range":"正确范围",
 		"Repeat last print?": "确定重复打印吗？",
 		"ERROR: Other error ": "错误：其他错误 ",
 		"Language test": "当前语言为中文",
