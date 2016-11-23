@@ -1,7 +1,7 @@
 ﻿var english={
 	"name":{
     	"version": "1.4",
-    	"date": "2016-11-11",
+    	"date": "2016-11-23",
        	"name":"zh"
     },
 	"_front": {
@@ -260,7 +260,8 @@
 		"Model_buy": "购买",
 		"Model_preparing":"正在准备数据，不能关闭",
 		"LatestVersion": "最新版本 V.",
-		"Failed_to_bind": "绑定失败"
+		"Failed_to_bind": "绑定失败",
+		"Custom_material_information_empty":"自定义材料信息不能为空"
 	},
 	"print": {
 		"PrinterStatus-1": "打印机未连接",
