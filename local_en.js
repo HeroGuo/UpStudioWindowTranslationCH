@@ -893,6 +893,6 @@
     "Prepare...":"准备...",
     "Being slicing, can not import model":"正在分层，无法导入模型",
     "No material detected, please replace it":"未检测到材料，请更换"
-    
-}
+},
+	 "image": {}
 }
