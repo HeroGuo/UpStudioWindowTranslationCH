@@ -451,7 +451,8 @@
 		"_Rubber": "橡皮",
 		"_Text": "文字",
 		"_Cut": "裁剪",
-		"_Toggle_color": "黑白转换"
+		"_Toggle_color": "黑白转换",
+		"The file is damaged":"文件已损坏"
 	},
      "IOS_Ipad_Iphone":{
     "Version":"1.0.1",
