@@ -426,7 +426,8 @@
 		"Initialize View": "复原视图",
 		"Rotate By Models Center": "绕模型中心旋转",
 		"Exit": "退出",
-		"app is not verified":"程序未校验"
+		"app is not verified":"程序未校验",
+		"The file is damaged":"文件已损坏"
 	},
 	"image_front": {
 		"_Model_Height": "模型高度",
@@ -451,8 +452,7 @@
 		"_Rubber": "橡皮",
 		"_Text": "文字",
 		"_Cut": "裁剪",
-		"_Toggle_color": "黑白转换",
-		"The file is damaged":"文件已损坏"
+		"_Toggle_color": "黑白转换"
 	},
      "IOS_Ipad_Iphone":{
     "Version":"1.0.1",
