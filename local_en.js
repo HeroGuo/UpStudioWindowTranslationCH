@@ -1,7 +1,7 @@
 ﻿var english={
-	"name":{
-    	"version": "1.4",
-    	"date": "2016-11-23",
+    "name":{
+    	"version": "1.4.1",
+    	"date": "2016-12-20",
        	"name":"zh"
     },
 	"_front": {
@@ -193,11 +193,11 @@
 		"serial_password": "密码",
 		"please_series_number": "请输入序列号",
 		"My_model": "我的模型",
-		"Public_model":"精品模型",
-		"Self_model":"私有模型",
-		"Save_model": "收藏的模型",
-		"Share_model": "发布的模型",
-		"Buy_model": "购买的模型",
+		"Public_model":"精品",
+		"Self_model":"私有",
+		"Save_model": "收藏",
+		"Share_model": "发布",
+		"Buy_model": "购买",
 		"My_print": "我的打印机",
 		"Find_all_print": "查看所有打印机",
 		"User_number": "用户积分",
@@ -224,7 +224,6 @@
 		"Download_on": "下载",
 		"Model_share": "分享",
 		"Cancel_upload": "取消发布",
-		"Upload_ing": "发布审核中",
 		"All_download": "全部下载",
 		"All_open": "全部打开",
 		"Model_attr": "模型属性",
@@ -261,10 +260,33 @@
 		"Model_preparing":"正在准备数据，不能关闭",
 		"LatestVersion": "最新版本 V.",
 		"Failed_to_bind": "绑定失败",
-		"Custom_material_information_empty":"自定义材料信息不能为空"
+		"Custom_material_information_empty":"自定义材料信息不能为空",
+		"Clear_cache": "清理缓存",
+		"Clear_download_model": "清除已下载模型",
+		"Clear_cache_file": "清除缓存文件",
+		"Compensation_height": "补偿高度",
+		"Current_nozzle_height_print": "当前喷嘴高度",
+		"Model_insert": "模型插入",
+		"Advanced_print": "高级打印",
+		"Pause_position": "暂停位置",
+		"Pause_height": "高度",
+		"Print_cao": "打印槽位",
+		"Pause_print_exame": "输入需要暂停的高度（毫米）例如：7.6",
+		"Model_audit": "审核中",
+		"Model_re_publish": "重新发布",
+		"Cancel_clear_up": "取消清理",
+		"Clear_finish": "清理完成",
+		"Nozzle_diameter": "喷嘴直径",
+		"Manual_activation": "手动激活",
+		"Manual_file": "请载入active.code文件以激活打印机",
+		"Manual_email": "如果您没有这个文件,您可以发送以下信息到ative@tiertime.net激活文件active.code,手动激活打印机。",
+		"Copy_message": "复制信息到剪贴板",
+		"Manual_fail": "从服务器返回激活码失败",
+		"Manual_download": "载入",
+		"Manual_connecting": "正在激活,请等待..."
 	},
 	"print": {
-		"PrinterStatus-1": "打印机未连接",
+		"PrinterStatus-1":"打印机未连接",
 		"PrinterStatus0": "未初始化",
 		"PrinterStatus1": "打印机准备就绪",
 		"PrinterStatus2": "打印中",
@@ -293,14 +315,12 @@
 		"ERROR: Task cannot be performed during printing": "错误：打印机运行中，不能进行此操作",
 		"ERROR: Incorrect material": "错误：打印机材料设置错误",
 		"ERROR: Printer status error": "错误：打印机状态错误",
-		"ERROR: Slicing error": "错误：分层错误",
 		"ERROR: Printer connection error": "错误：打印机连接错误",
 		"ERROR: Data transfer failure": "错误：传输打印数据失败",
 		"ERROR: Printer is busy,please stop and try again": "错误：系统正忙，请停止后再试",
 		"ERROR: Printer material shortage,still continue?": "错误：打印材料不足，是否继续打印？",
 		"ERROR: Printer support material shortage,still continue?": "错误：支撑材料不足，是否继续打印？",
-		"ERROR: Nozzleheight set error":"错误：喷头高度设置错误",
-		"Correct range":"正确范围",
+		"Correct range": "正确范围",
 		"Repeat last print?": "确定重复打印吗？",
 		"ERROR: Other error ": "错误：其他错误 ",
 		"Language test": "当前语言为中文",
@@ -313,7 +333,6 @@
 		"Note: Download will be running in the background, after the completion of the notice": "注意：下载将在后台运行。 完成后，您将收到通知。",
 		"Update": "升级",
 		"No new version": "无新版本",
-		"ERROR: The model is opening, please try again later": "错误：正在读取模型，请稍后再试",
 		"ERROR: Temperature is too high": "错误：温度过高",
 		"ERROR: Sensor not connected": "传感器未连接",
 		"ERROR: Calibration failure": "错误：校准失败",
@@ -378,7 +397,6 @@
 		"ERROR: The current state of activation is not factory activation": "错误：当前的激活状态不是工厂激活",
 		"ERROR: Failed to obtain an active state": "错误：获得激活状态失败",
 		"ERROR: Model out of print bound": "错误：模型超出打印范围",
-		"ERROR: Calibration Failure": "错误：校准失败",
 		"ERROR: Server connection failed": "错误：服务器连接失败",
 		"ERROR: Verification Failed,Please download activation package": "错误: 校验失败，请下载校验文件",
 		"Please Select The Type Of Plat": "请选择底板类型",
@@ -392,15 +410,17 @@
         "Price":"价格",
 		"Point":"积分",
 		"Sure to buy":"确定购买吗",
-		"UploadFile ERROR":"网络断开",
-		"UploadFile ERROR: Upload Error": "错误：上传错误",
-        "UploadFile ERROR: Network Disconnection": "错误：网络断开",
+		"ERROR: Upload Error": "错误：上传错误",
+        "ERROR: Network Disconnection": "错误：网络断开",
         "ERROR: Cancel publish failure":"错误：取消发布失败",
         "The printer does not support this feature":"打印机不支持该功能",
         "Print finished, please take out the model":"打印完成，请取出模型",
         "Cancel":"取消",
 		"Not Prompt":"不再提醒",
-		"No material detected, please replace it":"未检测到材料，请更换"
+		"No material detected, please replace it":"未检测到材料，请更换",
+		"ERROR: Publish failure":"发布失败",
+		"ERROR:Gcode failed to run":"Gcode运行失败",
+		"Run File":"运行文件"
 	},
 	"graphic": {
 		"Filepath: ": "文件路径: ",
@@ -427,7 +447,9 @@
 		"Rotate By Models Center": "绕模型中心旋转",
 		"Exit": "退出",
 		"app is not verified":"程序未校验",
-		"The file is damaged":"文件已损坏"
+		"The file is damaged": "文件已损坏",
+		
+		"current models contain protected model! can not do this operation!":"当前模型中包含受保护的模型！不能进行此操作！"
 	},
 	"image_front": {
 		"_Model_Height": "模型高度",
@@ -454,7 +476,7 @@
 		"_Cut": "裁剪",
 		"_Toggle_color": "黑白转换"
 	},
-     "IOS_Ipad_Iphone":{
+	  "IOS_Ipad_Iphone":{
     "Version":"1.0.1",
     "name": "简体中文",
     "Stop": "停止",
@@ -895,5 +917,5 @@
     "Being slicing, can not import model":"正在分层，无法导入模型",
     "No material detected, please replace it":"未检测到材料，请更换"
 },
-	 "image": {}
+     "image": { }
 }
