@@ -1,5 +1,5 @@
 ﻿var english={
-    "name":{
+   "name":{
     	"version": "1.6",
 		"date": "2017-01-10",
        	"name":"zh"
@@ -284,9 +284,8 @@
 		"Infill_style4": "65%",
 		"Infill_style5": "80%",
 		"Infill_style6": "99%",
-		
 		"Manual_activation": "手动激活",
-		"Manual_file": "请载入active.code文件以激活打印机",
+		"Manual_file": "请载入activeCode.act文件以激活打印机",
 		"Copy_message": "复制信息到剪贴板",
 		"Manual_fail": "从服务器返回激活码失败",
 		"Manual_download": "载入",
@@ -304,9 +303,20 @@
 		"Model_buy_times": "购买次数",
 		"Manual_email": "如果您没有这个文件,您可以登录",
 		"Model_publish_limited": "无限次的价格不得低于单次模型的价格",
-		"Manual_pass_information": "通过以下信息:",
+		"Manual_pass_information": "复制以下信息:",
 		"Manual_get_code":"获取激活文件ActiveCode.act,手动激活打印机",
-		"Colud_Print":"正在使用云端参数打印"
+		"Colud_Print":"正在使用云端参数打印",
+		"Manual_active_login_font": "您可以登录",
+		"Manual_get_code_select": "获取activeCode.act",
+		"Manual_send_email": "发送以下信息到zhangyh@tiertime.net获取:",
+		"Manual_select_hide": "收起",
+		"Check_upload_ups":"错误：不能上传受保护的模型",
+		"Model_Skin_Color":"默认模型颜色",
+		"Easy_peel":"易于剥离",
+
+		"Model_count_number": "打印次数不能小于1",
+		"Local_model": "本地",
+		"Load_check": "加载选中"
 	},
 	"print": {
 		"PrinterStatus-1":"打印机未连接",
@@ -454,7 +464,10 @@
 		"ERROR: Model validation failure":"错误：模型验证失败",
 		"Can Not Open File!":"无法打开文件！",
 		"Can Not Verify File!":"无法验证文件！",
-		"User Does Not Match!":"用户不匹配！"
+		"User Does Not Match!":"用户不匹配！",
+		"ERROR: Clear SD card error":"错误：清理SD卡错误",
+		"Clear SD card ok":"清理SD卡成功"
+
 	},
 	"graphic": {
 		"Filepath: ": "文件路径: ",
