@@ -1,7 +1,7 @@
 ﻿var english={
-   "name":{
+    "name":{
     	"version": "1.6",
-		"date": "2017-01-10",
+	"date": "2017-03-7",
        	"name":"zh"
     },
 	"_front": {
@@ -129,7 +129,6 @@
 		"Reprint": "重复打印",
 		"Slot": "槽位",
 		"Number": "序号",
-		"Model_Name": "模型名称",
 		"Time": "时间",
 		"Date": "日期",
 		"Choose": "选择",
@@ -452,7 +451,6 @@
 		"Not Prompt":"不再提醒",
 		"No material detected, please replace it":"未检测到材料，请更换",
 		"ERROR: Publish failure":"发布失败",
-		
 		"ERROR:Gcode failed to run":"Gcode运行失败",
 		"Run File":"运行文件",
 		"ERROR: Input Not Valid":"错误：输入无效",
@@ -495,7 +493,6 @@
 		"Exit": "退出",
 		"app is not verified":"程序未校验",
 		"The file is damaged": "文件已损坏",
-		
 		"current models contain protected model! can not do this operation!":"当前模型中包含受保护的模型！不能进行此操作！",
 		"UnKnown ERROR!Please Contact TierTime!":"未知错误！请联系太尔时代"
 	},
